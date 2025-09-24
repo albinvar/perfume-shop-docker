@@ -8,7 +8,7 @@ import ForgotPasswordScreen from './src/screens/auth/ForgotPasswordScreen';
 import HomeScreen from './src/screens/HomeScreen';
 import { Provider as PaperProvider } from 'react-native-paper';
 
-const Stack = createNativeStackNavigator();
+const Stack = createStackNavigator();
 
 export default function App() {
   return (
