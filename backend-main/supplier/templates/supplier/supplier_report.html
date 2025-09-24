@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Supplier Ledger Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .header h1 {
+            color: #2c3e50;
+            margin: 5px 0;
+            font-size: 22px;
+        }
+        .supplier-info {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .info-item {
+            margin-bottom: 5px;
+        }
+        .info-label {
+            font-weight: bold;
+            display: inline-block;
+            width: 100px;
+        }
+        .balance-summary {
+            display: flex;
+            justify-content: space-between;
+            margin: 15px 0;
+            padding: 10px;
+            background: #e8f4fc;
+            border-radius: 5px;
+        }
+        .balance-item {
+            text-align: center;
+        }
+        .balance-label {
+            font-weight: bold;
+            font-size: 11px;
+        }
+         table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            table-layout: fixed;
+        }
+        
+        th {
+            background: #3498db;
+            color: white;
+            padding: 8px;
+            text-align: left;
+            font-weight: bold;
+            border: 1px solid #ddd;
+        }
+        
+        td {
+            padding: 6px 8px;
+            border: 1px solid #ddd;
+            word-wrap: break-word;
+        }
+        
+        .text-right {
+            text-align: right;
+        }
+        
+        .debit {
+            color: #e74c3c;
+        }
+        
+        .credit {
+            color: #27ae60;
+        }
+        
+        .total-row {
+            font-weight: bold;
+            background: #f1f1f1;
+        }
+        
+        .footer {
+            text-align: right;
+            margin-top: 20px;
+            font-size: 11px;
+            color: #777;
+        }
+         /* Column widths matching your reference image */
+        .date-col { width: 12%; }
+        .particulars-col { width: 20%; }
+        .trans-col { width: 13%; }
+        .invoice-col { width: 14%; }
+        .debit-col { width: 12%; }
+        .credit-col { width: 12%; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Supplier Ledger Report</h1>
+        <div>From {{ filter.start_date }} to {{ filter.end_date }}</div>
+    </div>
+
+    {% if supplier %}
+    <div class="supplier-info">
+        <div class="info-grid">
+            <div class="info-item">
+                <span class="info-label">Supplier ID:</span>
+                <span>S-{{ supplier.id|stringformat:"04d" }}</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Name:</span>
+                <span>{{ supplier.name }}</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">GSTIN:</span>
+                <span>{{ supplier.gstin|default:"-" }}</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Contact:</span>
+                <span>{{ supplier.contact_no }}</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Address:</span>
+                <span>{{ supplier.address }}</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">City:</span>
+                <span>{{ supplier.city }}</span>
+            </div>
+            
+        </div>
+    </div>
+    {% endif %}
+
+    <table>
+        <thead>
+            <tr>
+                <th class="date-col">Date</th>
+                <th class="particulars-col">Particulars</th>
+                <th class="trans-col">Transaction No</th>
+                <th class="invoice-col">Invoice No</th>
+                <th class="payment-col">Payment Mode</th>
+                <th class="debit-col text-right">Debit</th>
+                <th class="credit-col text-right">Credit</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for transaction in transactions %}
+            <tr>
+                <td>{{ transaction.transaction_date|date:"Y-m-d" }}</td>
+                <td>{{ transaction.particulars }}</td>
+                <td>{{ transaction.transaction_no }}</td>
+                <td>{{ transaction.invoice_no|default:"-" }}</td>
+                <td>{{ transaction.get_payment_mode_display }}</td>
+                <td class="text-right debit">{{ transaction.debit|floatformat:2 }}</td>
+                <td class="text-right credit">{{ transaction.credit|floatformat:2 }}</td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="7" style="text-align: center;">No transactions found</td>
+            </tr>
+            {% endfor %}
+            <tr class="total-row">
+                <td colspan="5">TOTAL</td>
+                <td class="text-right debit">{{ totals.debit|floatformat:2 }}</td>
+                <td class="text-right credit">{{ totals.credit|floatformat:2 }}</td>
+            </tr>
+            <tr class="total-row">
+                <td colspan="5">Current Balance</td>
+                <td class="text-right debit" colspan="2">{{ totals.current_balance|floatformat:2 }}</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="footer">
+        Generated on {{ today|date:"Y-m-d H:i" }} by {{ request.user.username }}
+    </div>
+</body>
+</html>

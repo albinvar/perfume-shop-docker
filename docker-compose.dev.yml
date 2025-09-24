@@ -1,0 +1,35 @@
+version: '3.8'
+
+# Development configuration - extends the base docker-compose.yml
+# Use: docker-compose -f docker-compose.yml -f docker-compose.dev.yml up
+
+services:
+  backend:
+    build:
+      context: ./backend-main
+      dockerfile: Dockerfile
+    volumes:
+      - ./backend-main:/app
+      - /app/venv  # Exclude venv from being overridden
+    environment:
+      - DEBUG=True
+      - DJANGO_SETTINGS_MODULE=backend.settings
+    command: >
+      sh -c "
+      pip install -r requirements.txt &&
+      python manage.py migrate &&
+      python manage.py collectstatic --noinput &&
+      python manage.py runserver 0.0.0.0:8000
+      "
+
+  app:
+    build:
+      context: ./perfume-shop-mobile
+      dockerfile: Dockerfile
+    volumes:
+      - ./perfume-shop-mobile:/app
+      - /app/node_modules  # Preserve node_modules
+    environment:
+      - EXPO_PUBLIC_API_URL=http://localhost:8000/api
+      - NODE_ENV=development
+    command: npm run web

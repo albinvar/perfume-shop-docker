@@ -1,0 +1,2065 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 6,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 6,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 6,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 6,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add store",
+    "content_type": 7,
+    "codename": "add_store"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change store",
+    "content_type": 7,
+    "codename": "change_store"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete store",
+    "content_type": 7,
+    "codename": "delete_store"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view store",
+    "content_type": 7,
+    "codename": "view_store"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add registration",
+    "content_type": 8,
+    "codename": "add_registration"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change registration",
+    "content_type": 8,
+    "codename": "change_registration"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete registration",
+    "content_type": 8,
+    "codename": "delete_registration"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view registration",
+    "content_type": 8,
+    "codename": "view_registration"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add Product",
+    "content_type": 9,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change Product",
+    "content_type": 9,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete Product",
+    "content_type": 9,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view Product",
+    "content_type": 9,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add Purchase",
+    "content_type": 10,
+    "codename": "add_purchase"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change Purchase",
+    "content_type": 10,
+    "codename": "change_purchase"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete Purchase",
+    "content_type": 10,
+    "codename": "delete_purchase"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view Purchase",
+    "content_type": 10,
+    "codename": "view_purchase"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add Purchase Item",
+    "content_type": 11,
+    "codename": "add_purchaseitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change Purchase Item",
+    "content_type": 11,
+    "codename": "change_purchaseitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete Purchase Item",
+    "content_type": 11,
+    "codename": "delete_purchaseitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view Purchase Item",
+    "content_type": 11,
+    "codename": "view_purchaseitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add sale",
+    "content_type": 12,
+    "codename": "add_sale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change sale",
+    "content_type": 12,
+    "codename": "change_sale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete sale",
+    "content_type": 12,
+    "codename": "delete_sale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view sale",
+    "content_type": 12,
+    "codename": "view_sale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add sale item",
+    "content_type": 13,
+    "codename": "add_saleitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change sale item",
+    "content_type": 13,
+    "codename": "change_saleitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete sale item",
+    "content_type": 13,
+    "codename": "delete_saleitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view sale item",
+    "content_type": 13,
+    "codename": "view_saleitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add privilege card",
+    "content_type": 14,
+    "codename": "add_privilegecard"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change privilege card",
+    "content_type": 14,
+    "codename": "change_privilegecard"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete privilege card",
+    "content_type": 14,
+    "codename": "delete_privilegecard"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view privilege card",
+    "content_type": 14,
+    "codename": "view_privilegecard"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add customers",
+    "content_type": 15,
+    "codename": "add_customers"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change customers",
+    "content_type": 15,
+    "codename": "change_customers"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete customers",
+    "content_type": 15,
+    "codename": "delete_customers"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view customers",
+    "content_type": 15,
+    "codename": "view_customers"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add report",
+    "content_type": 16,
+    "codename": "add_report"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change report",
+    "content_type": 16,
+    "codename": "change_report"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete report",
+    "content_type": 16,
+    "codename": "delete_report"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view report",
+    "content_type": 16,
+    "codename": "view_report"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add unit",
+    "content_type": 17,
+    "codename": "add_unit"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change unit",
+    "content_type": 17,
+    "codename": "change_unit"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete unit",
+    "content_type": 17,
+    "codename": "delete_unit"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view unit",
+    "content_type": 17,
+    "codename": "view_unit"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can add tax",
+    "content_type": 18,
+    "codename": "add_tax"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can change tax",
+    "content_type": 18,
+    "codename": "change_tax"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can delete tax",
+    "content_type": 18,
+    "codename": "delete_tax"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can view tax",
+    "content_type": 18,
+    "codename": "view_tax"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 73,
+  "fields": {
+    "name": "Can add printer",
+    "content_type": 19,
+    "codename": "add_printer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 74,
+  "fields": {
+    "name": "Can change printer",
+    "content_type": 19,
+    "codename": "change_printer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 75,
+  "fields": {
+    "name": "Can delete printer",
+    "content_type": 19,
+    "codename": "delete_printer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 76,
+  "fields": {
+    "name": "Can view printer",
+    "content_type": 19,
+    "codename": "view_printer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 77,
+  "fields": {
+    "name": "Can add category",
+    "content_type": 20,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 78,
+  "fields": {
+    "name": "Can change category",
+    "content_type": 20,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 79,
+  "fields": {
+    "name": "Can delete category",
+    "content_type": 20,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 80,
+  "fields": {
+    "name": "Can view category",
+    "content_type": 20,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 81,
+  "fields": {
+    "name": "Can add Login Page Settings",
+    "content_type": 21,
+    "codename": "add_loginsettings"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 82,
+  "fields": {
+    "name": "Can change Login Page Settings",
+    "content_type": 21,
+    "codename": "change_loginsettings"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 83,
+  "fields": {
+    "name": "Can delete Login Page Settings",
+    "content_type": 21,
+    "codename": "delete_loginsettings"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 84,
+  "fields": {
+    "name": "Can view Login Page Settings",
+    "content_type": 21,
+    "codename": "view_loginsettings"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 85,
+  "fields": {
+    "name": "Can add supplier",
+    "content_type": 22,
+    "codename": "add_supplier"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 86,
+  "fields": {
+    "name": "Can change supplier",
+    "content_type": 22,
+    "codename": "change_supplier"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 87,
+  "fields": {
+    "name": "Can delete supplier",
+    "content_type": 22,
+    "codename": "delete_supplier"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 88,
+  "fields": {
+    "name": "Can view supplier",
+    "content_type": 22,
+    "codename": "view_supplier"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 89,
+  "fields": {
+    "name": "Can add supplier transaction",
+    "content_type": 23,
+    "codename": "add_suppliertransaction"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 90,
+  "fields": {
+    "name": "Can change supplier transaction",
+    "content_type": 23,
+    "codename": "change_suppliertransaction"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 91,
+  "fields": {
+    "name": "Can delete supplier transaction",
+    "content_type": 23,
+    "codename": "delete_suppliertransaction"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 92,
+  "fields": {
+    "name": "Can view supplier transaction",
+    "content_type": 23,
+    "codename": "view_suppliertransaction"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "accounts",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "accounts",
+    "model": "store"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "accounts",
+    "model": "registration"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "products",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "purchases",
+    "model": "purchase"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "purchases",
+    "model": "purchaseitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "Sales",
+    "model": "sale"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "Sales",
+    "model": "saleitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "customers_privilege",
+    "model": "privilegecard"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "customers_privilege",
+    "model": "customers"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "reports",
+    "model": "report"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "master",
+    "model": "unit"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 18,
+  "fields": {
+    "app_label": "master",
+    "model": "tax"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 19,
+  "fields": {
+    "app_label": "master",
+    "model": "printer"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 20,
+  "fields": {
+    "app_label": "master",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 21,
+  "fields": {
+    "app_label": "master",
+    "model": "loginsettings"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 22,
+  "fields": {
+    "app_label": "supplier",
+    "model": "supplier"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 23,
+  "fields": {
+    "app_label": "supplier",
+    "model": "suppliertransaction"
+  }
+},
+{
+  "model": "accounts.store",
+  "pk": 1,
+  "fields": {
+    "name": "store 1",
+    "place": "Thrissur",
+    "email": "store1@gmail.com",
+    "phone": "97776878",
+    "store_id": "768",
+    "photo": "image/upload/store_photos/z1yqqtyx08oiyae0jbiz",
+    "gst_number": "7876",
+    "created_at": "2025-06-13T11:10:47.616Z",
+    "updated_at": "2025-06-13T12:04:54.428Z"
+  }
+},
+{
+  "model": "accounts.store",
+  "pk": 2,
+  "fields": {
+    "name": "store 2",
+    "place": "edamuttam",
+    "email": "store2@gmail.com",
+    "phone": "6886586",
+    "store_id": "68586",
+    "photo": "image/upload/v1749813210/kzbiuq9hpvh5jhfl1f8b.jpg",
+    "gst_number": "685688",
+    "created_at": "2025-06-13T11:13:31.168Z",
+    "updated_at": "2025-06-13T11:13:31.169Z"
+  }
+},
+{
+  "model": "accounts.store",
+  "pk": 3,
+  "fields": {
+    "name": "store3",
+    "place": "kattor",
+    "email": "store3@gmail.com",
+    "phone": "5654656",
+    "store_id": "56546",
+    "photo": "image/upload/store_photos/k2pnhnoqpfhwh6zyzdxy",
+    "gst_number": "544565545",
+    "created_at": "2025-06-13T11:23:34.952Z",
+    "updated_at": "2025-06-13T12:10:38.688Z"
+  }
+},
+{
+  "model": "accounts.store",
+  "pk": 4,
+  "fields": {
+    "name": "store4",
+    "place": "edathiruthy",
+    "email": "store4@gmail.com",
+    "phone": "46454",
+    "store_id": "466465",
+    "photo": "image/upload/store_photos/epfmjbu3c4zxl5k26q5v",
+    "gst_number": "46464",
+    "created_at": "2025-06-13T12:12:00.128Z",
+    "updated_at": "2025-06-13T12:12:00.969Z"
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$MXXMeKvwqyqm1RFcmY3Gpu$n81CijYVioc8h5ANODJ1m0Fv7t/AFvAY7D8/Mh8gYVU=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "admin",
+    "first_name": "admin",
+    "last_name": "123",
+    "email": "admin@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-13T10:58:00.196Z",
+    "phone": "6868684787",
+    "address": "",
+    "place": "",
+    "role": "ADMIN",
+    "photo": null,
+    "store": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$Wf4acPWvoua2p3px2pKxlH$zgjxamIkccWdA4FUv12KLTdmNsX2WBl1v4rWl2ADS/I=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "staff1",
+    "first_name": "test",
+    "last_name": "staff",
+    "email": "staff1@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-13T11:00:02.511Z",
+    "phone": "688658686",
+    "address": "test address",
+    "place": "test place",
+    "role": "STAFF",
+    "photo": "image/upload/v1749816755/giq6se0j36ff2qxaohr3.jpg",
+    "store": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$Q0uVvsuqltT6MQCkGEYJS7$1asFA176G3XJqu7hv9qyQriHOIkJyRkqXjv8rE4XK4k=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "staff2",
+    "first_name": "test",
+    "last_name": "staff",
+    "email": "staff@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-13T20:26:32.439Z",
+    "phone": "89898979",
+    "address": "jjkgjgghgh",
+    "place": "hgghfghf",
+    "role": "STAFF",
+    "photo": null,
+    "store": 2,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.registration",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "password": "123456",
+    "image": null,
+    "user_role": "ADMIN",
+    "registered_at": "2025-06-13T10:58:03.183Z"
+  }
+},
+{
+  "model": "accounts.registration",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "password": "1234",
+    "image": "image/upload/v1749816756/mdyjzxeqyajfckzswhcc.jpg",
+    "user_role": "STAFF",
+    "registered_at": "2025-06-13T11:00:04.667Z"
+  }
+},
+{
+  "model": "accounts.registration",
+  "pk": 3,
+  "fields": {
+    "user": 3,
+    "password": "1234",
+    "image": null,
+    "user_role": "STAFF",
+    "registered_at": "2025-06-13T20:26:34.337Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "product_code": "001",
+    "name": "test1",
+    "hsn_code": "80980990",
+    "store": null,
+    "category": 1,
+    "stock": 2,
+    "description": "test product",
+    "mrp": "1000.00",
+    "discount": "3.00",
+    "purchase_rate": "200.00",
+    "sale_rate": "970.00",
+    "tax1": 1,
+    "tax2": 1,
+    "tax_type": "EXCLUSIVE",
+    "opening_stock": "4.00",
+    "barcode": "COMP-001-TEST1-₹1057.3",
+    "unit": 1,
+    "image": "image/upload/products/1/product_1_20250613200151",
+    "created_at": "2025-06-13T20:01:51.327Z",
+    "updated_at": "2025-06-13T20:29:28.518Z",
+    "created_by": 1,
+    "updated_by": 1,
+    "is_active": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "product_code": "002",
+    "name": "frabnb",
+    "hsn_code": "09008098",
+    "store": 2,
+    "category": 2,
+    "stock": 4,
+    "description": "hjkjgjhghjg",
+    "mrp": "1000.00",
+    "discount": "3.00",
+    "purchase_rate": "599.00",
+    "sale_rate": "970.00",
+    "tax1": null,
+    "tax2": null,
+    "tax_type": "INCLUSIVE",
+    "opening_stock": "1.00",
+    "barcode": "COMP-002-FRABN-₹970.00",
+    "unit": 1,
+    "image": "image/upload/products/2/product_2_20250614200015",
+    "created_at": "2025-06-13T20:08:28.821Z",
+    "updated_at": "2025-06-14T20:00:21.140Z",
+    "created_by": 1,
+    "updated_by": 3,
+    "is_active": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "product_code": "003",
+    "name": "ghfghdhfdgh",
+    "hsn_code": "",
+    "store": 1,
+    "category": null,
+    "stock": 0,
+    "description": "",
+    "mrp": "67.00",
+    "discount": "1.00",
+    "purchase_rate": "0.00",
+    "sale_rate": "66.33",
+    "tax1": 1,
+    "tax2": null,
+    "tax_type": "EXCLUSIVE",
+    "opening_stock": "0.00",
+    "barcode": "COMP-003-GHFGH-₹66.33",
+    "unit": 1,
+    "image": "image/upload/products/3/product_3_20250614184429",
+    "created_at": "2025-06-14T14:52:12.568Z",
+    "updated_at": "2025-06-14T18:44:32.607Z",
+    "created_by": 1,
+    "updated_by": 1,
+    "is_active": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 5,
+  "fields": {
+    "product_code": "004",
+    "name": "staff",
+    "hsn_code": "3133113",
+    "store": 2,
+    "category": 2,
+    "stock": 0,
+    "description": "",
+    "mrp": "2000.00",
+    "discount": "2.00",
+    "purchase_rate": "200.00",
+    "sale_rate": "1960.00",
+    "tax1": null,
+    "tax2": null,
+    "tax_type": "INCLUSIVE",
+    "opening_stock": "1.00",
+    "barcode": "COMP-004-STAFF-₹1960.00",
+    "unit": 2,
+    "image": "image/upload/products/5/product_5_20250614154124",
+    "created_at": "2025-06-14T15:41:24.673Z",
+    "updated_at": "2025-06-14T15:42:21.849Z",
+    "created_by": 2,
+    "updated_by": 1,
+    "is_active": false
+  }
+},
+{
+  "model": "purchases.purchase",
+  "pk": 1,
+  "fields": {
+    "invoice_no": "PE001",
+    "date": "2025-06-13",
+    "payment_type": "cash",
+    "status": "returned",
+    "supplier_invoice_no": "424242",
+    "supplier_invoice_date": "2025-06-11",
+    "supplier": 2,
+    "store": 1,
+    "total_amount": "2396.00",
+    "remarks": null,
+    "is_return": false,
+    "return_reference": null,
+    "created_by": 2,
+    "updated_by": null,
+    "created_at": "2025-06-13T20:28:34.484Z",
+    "updated_at": "2025-06-13T20:29:39.721Z"
+  }
+},
+{
+  "model": "purchases.purchase",
+  "pk": 2,
+  "fields": {
+    "invoice_no": "PE002",
+    "date": "2025-06-13",
+    "payment_type": "cash",
+    "status": "completed",
+    "supplier_invoice_no": null,
+    "supplier_invoice_date": "2025-06-10",
+    "supplier": 2,
+    "store": 1,
+    "total_amount": "236.00",
+    "remarks": null,
+    "is_return": false,
+    "return_reference": null,
+    "created_by": 2,
+    "updated_by": null,
+    "created_at": "2025-06-13T20:29:28.506Z",
+    "updated_at": "2025-06-13T20:29:28.519Z"
+  }
+},
+{
+  "model": "purchases.purchase",
+  "pk": 3,
+  "fields": {
+    "invoice_no": "PR001",
+    "date": "2025-06-13",
+    "payment_type": "cash",
+    "status": "completed",
+    "supplier_invoice_no": null,
+    "supplier_invoice_date": null,
+    "supplier": 2,
+    "store": 1,
+    "total_amount": "1198.00",
+    "remarks": "Return for PE001",
+    "is_return": true,
+    "return_reference": 1,
+    "created_by": 2,
+    "updated_by": null,
+    "created_at": "2025-06-13T20:29:39.724Z",
+    "updated_at": "2025-06-13T20:29:39.736Z"
+  }
+},
+{
+  "model": "purchases.purchaseitem",
+  "pk": 1,
+  "fields": {
+    "purchase": 1,
+    "product": 2,
+    "quantity": "4.00",
+    "rate": "599.00",
+    "amount": "2396.00",
+    "tax_amount": "0.00",
+    "tax1_rate": "0.00",
+    "tax2_rate": "0.00",
+    "tax_type": "INCLUSIVE",
+    "returned_quantity": "2.00"
+  }
+},
+{
+  "model": "purchases.purchaseitem",
+  "pk": 2,
+  "fields": {
+    "purchase": 2,
+    "product": 1,
+    "quantity": "1.00",
+    "rate": "200.00",
+    "amount": "236.00",
+    "tax_amount": "36.00",
+    "tax1_rate": "9.00",
+    "tax2_rate": "9.00",
+    "tax_type": "EXCLUSIVE",
+    "returned_quantity": "0.00"
+  }
+},
+{
+  "model": "purchases.purchaseitem",
+  "pk": 3,
+  "fields": {
+    "purchase": 3,
+    "product": 2,
+    "quantity": "2.00",
+    "rate": "599.00",
+    "amount": "1198.00",
+    "tax_amount": "0.00",
+    "tax1_rate": "0.00",
+    "tax2_rate": "0.00",
+    "tax_type": "INCLUSIVE",
+    "returned_quantity": "0.00"
+  }
+},
+{
+  "model": "Sales.sale",
+  "pk": 1,
+  "fields": {
+    "invoice_no": "SA001",
+    "date": "2025-06-14",
+    "store": 1,
+    "customer": null,
+    "total_amount": "1960.00",
+    "discount_amount": "0.00",
+    "tax_amount": "0.00",
+    "final_amount": "1960.00",
+    "payment_method": "CASH",
+    "notes": "",
+    "created_by": 2,
+    "updated_by": null,
+    "created_at": "2025-06-14T15:47:24.364Z",
+    "updated_at": "2025-06-14T15:47:24.364Z",
+    "is_return": false,
+    "original_sale": null
+  }
+},
+{
+  "model": "Sales.sale",
+  "pk": 2,
+  "fields": {
+    "invoice_no": "SA002",
+    "date": "2025-06-14",
+    "store": 1,
+    "customer": null,
+    "total_amount": "1940.00",
+    "discount_amount": "0.00",
+    "tax_amount": "0.00",
+    "final_amount": "1940.00",
+    "payment_method": "CHEQUE",
+    "notes": "",
+    "created_by": 2,
+    "updated_by": null,
+    "created_at": "2025-06-14T15:47:46.241Z",
+    "updated_at": "2025-06-14T15:47:46.241Z",
+    "is_return": false,
+    "original_sale": null
+  }
+},
+{
+  "model": "Sales.sale",
+  "pk": 3,
+  "fields": {
+    "invoice_no": "RTSA002",
+    "date": "2025-06-14",
+    "store": 1,
+    "customer": null,
+    "total_amount": "-1940.00",
+    "discount_amount": "0.00",
+    "tax_amount": "0.00",
+    "final_amount": "-1940.00",
+    "payment_method": "CHEQUE",
+    "notes": "Return for SA002",
+    "created_by": 2,
+    "updated_by": null,
+    "created_at": "2025-06-14T15:47:48.849Z",
+    "updated_at": "2025-06-14T15:47:48.849Z",
+    "is_return": true,
+    "original_sale": 2
+  }
+},
+{
+  "model": "Sales.sale",
+  "pk": 4,
+  "fields": {
+    "invoice_no": "SA003",
+    "date": "2025-06-14",
+    "store": 1,
+    "customer": 3,
+    "total_amount": "128.68",
+    "discount_amount": "3.98",
+    "tax_amount": "11.94",
+    "final_amount": "140.62",
+    "payment_method": "ONLINE",
+    "notes": "",
+    "created_by": 2,
+    "updated_by": null,
+    "created_at": "2025-06-14T16:28:06.932Z",
+    "updated_at": "2025-06-14T16:28:06.932Z",
+    "is_return": false,
+    "original_sale": null
+  }
+},
+{
+  "model": "Sales.sale",
+  "pk": 5,
+  "fields": {
+    "invoice_no": "SA004",
+    "date": "2025-06-14",
+    "store": 2,
+    "customer": 3,
+    "total_amount": "940.90",
+    "discount_amount": "29.10",
+    "tax_amount": "174.60",
+    "final_amount": "1115.50",
+    "payment_method": "CASH",
+    "notes": "",
+    "created_by": 3,
+    "updated_by": null,
+    "created_at": "2025-06-14T18:46:11.796Z",
+    "updated_at": "2025-06-14T18:46:11.796Z",
+    "is_return": false,
+    "original_sale": null
+  }
+},
+{
+  "model": "Sales.sale",
+  "pk": 6,
+  "fields": {
+    "invoice_no": "SA005",
+    "date": "2025-06-14",
+    "store": 2,
+    "customer": 3,
+    "total_amount": "64.34",
+    "discount_amount": "1.99",
+    "tax_amount": "5.97",
+    "final_amount": "70.31",
+    "payment_method": "CREDIT",
+    "notes": "",
+    "created_by": 3,
+    "updated_by": null,
+    "created_at": "2025-06-14T20:01:16.617Z",
+    "updated_at": "2025-06-14T20:01:16.617Z",
+    "is_return": false,
+    "original_sale": null
+  }
+},
+{
+  "model": "Sales.saleitem",
+  "pk": 1,
+  "fields": {
+    "sale": 1,
+    "product": 5,
+    "quantity": "1.00",
+    "rate": "1960.00",
+    "discount": "0.00",
+    "tax1_rate": "0.00",
+    "tax2_rate": "0.00",
+    "tax_type": "INCLUSIVE",
+    "amount": "1960.0000"
+  }
+},
+{
+  "model": "Sales.saleitem",
+  "pk": 2,
+  "fields": {
+    "sale": 2,
+    "product": 2,
+    "quantity": "2.00",
+    "rate": "970.00",
+    "discount": "0.00",
+    "tax1_rate": "0.00",
+    "tax2_rate": "0.00",
+    "tax_type": "INCLUSIVE",
+    "amount": "1940.0000"
+  }
+},
+{
+  "model": "Sales.saleitem",
+  "pk": 3,
+  "fields": {
+    "sale": 3,
+    "product": 2,
+    "quantity": "-2.00",
+    "rate": "970.00",
+    "discount": "0.00",
+    "tax1_rate": "0.00",
+    "tax2_rate": "0.00",
+    "tax_type": "INCLUSIVE",
+    "amount": "-1940.0000"
+  }
+},
+{
+  "model": "Sales.saleitem",
+  "pk": 4,
+  "fields": {
+    "sale": 4,
+    "product": 3,
+    "quantity": "2.00",
+    "rate": "66.33",
+    "discount": "3.98",
+    "tax1_rate": "9.00",
+    "tax2_rate": "0.00",
+    "tax_type": "EXCLUSIVE",
+    "amount": "132.6600"
+  }
+},
+{
+  "model": "Sales.saleitem",
+  "pk": 5,
+  "fields": {
+    "sale": 5,
+    "product": 1,
+    "quantity": "1.00",
+    "rate": "970.00",
+    "discount": "29.10",
+    "tax1_rate": "9.00",
+    "tax2_rate": "9.00",
+    "tax_type": "EXCLUSIVE",
+    "amount": "970.0000"
+  }
+},
+{
+  "model": "Sales.saleitem",
+  "pk": 6,
+  "fields": {
+    "sale": 6,
+    "product": 3,
+    "quantity": "1.00",
+    "rate": "66.33",
+    "discount": "1.99",
+    "tax1_rate": "9.00",
+    "tax2_rate": "0.00",
+    "tax_type": "EXCLUSIVE",
+    "amount": "66.3300"
+  }
+},
+{
+  "model": "customers_privilege.privilegecard",
+  "pk": 1,
+  "fields": {
+    "card_type": "PREMIUM",
+    "discount_percentage": 10,
+    "created_at": "2025-06-14T16:20:28.684Z",
+    "updated_at": "2025-06-14T16:20:28.684Z"
+  }
+},
+{
+  "model": "customers_privilege.privilegecard",
+  "pk": 2,
+  "fields": {
+    "card_type": "STANDARD",
+    "discount_percentage": 7,
+    "created_at": "2025-06-14T16:20:46.840Z",
+    "updated_at": "2025-06-14T16:20:46.840Z"
+  }
+},
+{
+  "model": "customers_privilege.privilegecard",
+  "pk": 3,
+  "fields": {
+    "card_type": "BASIC",
+    "discount_percentage": 3,
+    "created_at": "2025-06-14T16:20:53.764Z",
+    "updated_at": "2025-06-14T16:20:53.764Z"
+  }
+},
+{
+  "model": "customers_privilege.customers",
+  "pk": 1,
+  "fields": {
+    "customer_id": "CIN001",
+    "name": "anu",
+    "address": "thrissur p,o 89890",
+    "place": "thrissur",
+    "pin_code": "680703",
+    "email": "anu@gmail.com",
+    "phone": "44546544",
+    "privilege_card": 1,
+    "created_at": "2025-06-14T16:22:48.749Z",
+    "updated_at": "2025-06-14T16:22:48.749Z",
+    "created_by": 1
+  }
+},
+{
+  "model": "customers_privilege.customers",
+  "pk": 2,
+  "fields": {
+    "customer_id": "CIN002",
+    "name": "fathima",
+    "address": "Edathiruthy, Kerala",
+    "place": "thrissur",
+    "pin_code": "680703",
+    "email": "fathima@gmail.com",
+    "phone": "8998645645",
+    "privilege_card": 2,
+    "created_at": "2025-06-14T16:24:16.290Z",
+    "updated_at": "2025-06-14T16:24:16.290Z",
+    "created_by": 1
+  }
+},
+{
+  "model": "customers_privilege.customers",
+  "pk": 3,
+  "fields": {
+    "customer_id": "CIN003",
+    "name": "Muhamed",
+    "address": "Chuloor-Kuttamangalam Road, Edathiruthy",
+    "place": "Kerala",
+    "pin_code": "680705",
+    "email": "muhamed@gmail.com",
+    "phone": "9072974432",
+    "privilege_card": 3,
+    "created_at": "2025-06-14T16:26:11.536Z",
+    "updated_at": "2025-06-14T16:26:11.536Z",
+    "created_by": 1
+  }
+},
+{
+  "model": "reports.report",
+  "pk": 17,
+  "fields": {
+    "report_type": "PURCHASE",
+    "format": "DOCX",
+    "start_date": "2025-05-31",
+    "end_date": "2025-06-29",
+    "store": null,
+    "created_by": 1,
+    "created_at": "2025-06-14T00:32:56.563Z",
+    "file_url": "https://res.cloudinary.com/dnjsec6b4/raw/upload/v1749861175/reports/purchase_report_2025-05-31_2025-06-29.docx"
+  }
+},
+{
+  "model": "reports.report",
+  "pk": 18,
+  "fields": {
+    "report_type": "PURCHASE",
+    "format": "XLSX",
+    "start_date": "2025-05-31",
+    "end_date": "2025-06-29",
+    "store": null,
+    "created_by": 1,
+    "created_at": "2025-06-14T00:33:21.406Z",
+    "file_url": "https://res.cloudinary.com/dnjsec6b4/raw/upload/v1749861201/reports/purchase_report_2025-05-31_2025-06-29.xlsx"
+  }
+},
+{
+  "model": "reports.report",
+  "pk": 19,
+  "fields": {
+    "report_type": "PURCHASE",
+    "format": "PDF",
+    "start_date": "2025-05-31",
+    "end_date": "2025-06-29",
+    "store": null,
+    "created_by": 1,
+    "created_at": "2025-06-14T00:34:47.034Z",
+    "file_url": "https://res.cloudinary.com/dnjsec6b4/raw/upload/v1749861286/reports/purchase_report_2025-05-31_2025-06-29.pdf"
+  }
+},
+{
+  "model": "reports.report",
+  "pk": 20,
+  "fields": {
+    "report_type": "PURCHASE_RETURN",
+    "format": "PDF",
+    "start_date": "2025-05-31",
+    "end_date": "2025-06-29",
+    "store": null,
+    "created_by": 1,
+    "created_at": "2025-06-14T00:35:12.563Z",
+    "file_url": "https://res.cloudinary.com/dnjsec6b4/raw/upload/v1749861312/reports/purchase_return_report_2025-05-31_2025-06-29.pdf"
+  }
+},
+{
+  "model": "reports.report",
+  "pk": 21,
+  "fields": {
+    "report_type": "PURCHASE_RETURN",
+    "format": "PDF",
+    "start_date": "2025-05-31",
+    "end_date": "2025-06-29",
+    "store": null,
+    "created_by": 1,
+    "created_at": "2025-06-14T00:38:45.561Z",
+    "file_url": "https://res.cloudinary.com/dnjsec6b4/raw/upload/v1749861524/reports/purchase_return_report_2025-05-31_2025-06-29.pdf"
+  }
+},
+{
+  "model": "reports.report",
+  "pk": 22,
+  "fields": {
+    "report_type": "PURCHASE",
+    "format": "PDF",
+    "start_date": "2025-05-31",
+    "end_date": "2025-06-29",
+    "store": null,
+    "created_by": 1,
+    "created_at": "2025-06-14T14:41:10.845Z",
+    "file_url": "https://res.cloudinary.com/dnjsec6b4/raw/upload/v1749912069/reports/purchase_report_2025-05-31_2025-06-29.pdf"
+  }
+},
+{
+  "model": "reports.report",
+  "pk": 23,
+  "fields": {
+    "report_type": "PURCHASE_RETURN",
+    "format": "PDF",
+    "start_date": "2025-05-31",
+    "end_date": "2025-06-29",
+    "store": null,
+    "created_by": 1,
+    "created_at": "2025-06-14T14:42:38.479Z",
+    "file_url": "https://res.cloudinary.com/dnjsec6b4/raw/upload/v1749912157/reports/purchase_return_report_2025-05-31_2025-06-29.pdf"
+  }
+},
+{
+  "model": "reports.report",
+  "pk": 24,
+  "fields": {
+    "report_type": "PURCHASE_RETURN",
+    "format": "XLSX",
+    "start_date": "2025-05-31",
+    "end_date": "2025-06-29",
+    "store": null,
+    "created_by": 1,
+    "created_at": "2025-06-14T14:43:29.162Z",
+    "file_url": "https://res.cloudinary.com/dnjsec6b4/raw/upload/v1749912208/reports/purchase_return_report_2025-05-31_2025-06-29.xlsx"
+  }
+},
+{
+  "model": "reports.report",
+  "pk": 25,
+  "fields": {
+    "report_type": "PURCHASE_RETURN",
+    "format": "DOCX",
+    "start_date": "2025-05-31",
+    "end_date": "2025-06-29",
+    "store": null,
+    "created_by": 1,
+    "created_at": "2025-06-14T14:44:22.928Z",
+    "file_url": "https://res.cloudinary.com/dnjsec6b4/raw/upload/v1749912262/reports/purchase_return_report_2025-05-31_2025-06-29.docx"
+  }
+},
+{
+  "model": "reports.report",
+  "pk": 26,
+  "fields": {
+    "report_type": "SALE",
+    "format": "PDF",
+    "start_date": "2025-05-31",
+    "end_date": "2025-06-29",
+    "store": null,
+    "created_by": 1,
+    "created_at": "2025-06-14T15:48:43.758Z",
+    "file_url": "https://res.cloudinary.com/dnjsec6b4/raw/upload/v1749916123/reports/sale_report_2025-05-31_2025-06-29.pdf"
+  }
+},
+{
+  "model": "reports.report",
+  "pk": 27,
+  "fields": {
+    "report_type": "SALE_RETURN",
+    "format": "PDF",
+    "start_date": "2025-05-31",
+    "end_date": "2025-06-29",
+    "store": null,
+    "created_by": 1,
+    "created_at": "2025-06-14T16:07:17.583Z",
+    "file_url": "https://res.cloudinary.com/dnjsec6b4/raw/upload/v1749917236/reports/sale_return_report_2025-05-31_2025-06-29.pdf"
+  }
+},
+{
+  "model": "reports.report",
+  "pk": 29,
+  "fields": {
+    "report_type": "SALE",
+    "format": "PDF",
+    "start_date": "2025-05-31",
+    "end_date": "2025-06-29",
+    "store": null,
+    "created_by": 1,
+    "created_at": "2025-06-14T16:29:45.913Z",
+    "file_url": "https://res.cloudinary.com/dnjsec6b4/raw/upload/v1749918585/reports/sale_report_2025-05-31_2025-06-29.pdf"
+  }
+},
+{
+  "model": "reports.report",
+  "pk": 30,
+  "fields": {
+    "report_type": "SALE_RETURN",
+    "format": "DOCX",
+    "start_date": "2025-05-31",
+    "end_date": "2025-06-29",
+    "store": null,
+    "created_by": 1,
+    "created_at": "2025-06-14T18:42:45.602Z",
+    "file_url": "https://res.cloudinary.com/dnjsec6b4/raw/upload/v1749926565/reports/sale_return_report_2025-05-31_2025-06-29.docx"
+  }
+},
+{
+  "model": "master.category",
+  "pk": 1,
+  "fields": {
+    "name": "Fragrance",
+    "description": "",
+    "created_at": "2025-06-13T15:25:45.893Z",
+    "updated_at": "2025-06-13T15:25:45.893Z",
+    "created_by": 1,
+    "updated_by": 1
+  }
+},
+{
+  "model": "master.category",
+  "pk": 2,
+  "fields": {
+    "name": "concentration",
+    "description": "",
+    "created_at": "2025-06-13T15:26:39.115Z",
+    "updated_at": "2025-06-13T15:26:39.115Z",
+    "created_by": 1,
+    "updated_by": 1
+  }
+},
+{
+  "model": "master.tax",
+  "pk": 1,
+  "fields": {
+    "name": "SGST",
+    "rate": "9.00",
+    "description": "",
+    "created_at": "2025-06-13T15:27:19.941Z",
+    "updated_at": "2025-06-13T15:27:19.941Z",
+    "created_by": 1,
+    "updated_by": 1
+  }
+},
+{
+  "model": "master.tax",
+  "pk": 2,
+  "fields": {
+    "name": "CGST",
+    "rate": "9.00",
+    "description": "",
+    "created_at": "2025-06-13T15:27:30.352Z",
+    "updated_at": "2025-06-13T15:27:30.352Z",
+    "created_by": 1,
+    "updated_by": 1
+  }
+},
+{
+  "model": "master.unit",
+  "pk": 1,
+  "fields": {
+    "name": "Liter",
+    "type": "SALE",
+    "symbol": "L",
+    "created_at": "2025-06-13T15:27:57.008Z",
+    "updated_at": "2025-06-13T15:27:57.008Z",
+    "created_by": 1,
+    "updated_by": 1
+  }
+},
+{
+  "model": "master.unit",
+  "pk": 2,
+  "fields": {
+    "name": "Piece",
+    "type": "SALE",
+    "symbol": "P",
+    "created_at": "2025-06-13T15:29:59.036Z",
+    "updated_at": "2025-06-13T15:29:59.036Z",
+    "created_by": 1,
+    "updated_by": 1
+  }
+},
+{
+  "model": "master.loginsettings",
+  "pk": 1,
+  "fields": {
+    "logo": "image/upload/v1749926837/elkwi3xadlp42vezmzx4.webp",
+    "company_name": "perfume",
+    "first_part_text": "FRAGRANCE",
+    "second_part_text": "SHOP",
+    "first_part_color": "#FF6B6B",
+    "second_part_color": "#FFFFFF",
+    "subtitle": "TECHNOLOGIES & INVENTIONS PVT.LTD",
+    "created_at": "2025-06-13T15:40:04.814Z",
+    "updated_at": "2025-06-14T18:47:18.192Z",
+    "created_by": null,
+    "updated_by": null
+  }
+},
+{
+  "model": "supplier.supplier",
+  "pk": 1,
+  "fields": {
+    "name": "amal",
+    "address": "test address",
+    "city": "place",
+    "contact_no": "353235",
+    "contact_email": "amal@gmail.com",
+    "gstin": "34432",
+    "bank_name": "test bank",
+    "account_number": "334234",
+    "ifsc_code": "ifsctest",
+    "opening_balance": "0.00",
+    "current_balance": "0.00",
+    "created_by": 1,
+    "updated_by": null,
+    "created_at": "2025-06-13T20:17:52.172Z",
+    "updated_at": "2025-06-13T20:23:36.786Z"
+  }
+},
+{
+  "model": "supplier.supplier",
+  "pk": 2,
+  "fields": {
+    "name": "nihal",
+    "address": "addresstest",
+    "city": "cjjjcf",
+    "contact_no": "6586688",
+    "contact_email": "nihal@gmail.com",
+    "gstin": "0887098",
+    "bank_name": "hgfff",
+    "account_number": "57757547",
+    "ifsc_code": "7547575",
+    "opening_balance": "0.00",
+    "current_balance": "0.00",
+    "created_by": 1,
+    "updated_by": null,
+    "created_at": "2025-06-13T20:19:56.086Z",
+    "updated_at": "2025-06-13T20:19:56.086Z"
+  }
+},
+{
+  "model": "supplier.suppliertransaction",
+  "pk": 1,
+  "fields": {
+    "supplier": 1,
+    "transaction_no": "ST0001",
+    "transaction_date": "2025-06-10",
+    "invoice_no": "324242",
+    "particulars": "hvkkhu",
+    "description": "kujbbn,vb",
+    "debit": "2000.00",
+    "credit": "0.00",
+    "payment_mode": "online",
+    "remarks": "",
+    "created_by": 1,
+    "created_at": "2025-06-13T20:20:48.830Z"
+  }
+},
+{
+  "model": "supplier.suppliertransaction",
+  "pk": 2,
+  "fields": {
+    "supplier": 1,
+    "transaction_no": "ST0002",
+    "transaction_date": "2025-06-13",
+    "invoice_no": "424424",
+    "particulars": "vncvncf",
+    "description": "bmvhjgh",
+    "debit": "0.00",
+    "credit": "2000.00",
+    "payment_mode": "cash",
+    "remarks": "",
+    "created_by": 1,
+    "created_at": "2025-06-13T20:23:36.763Z"
+  }
+}
+]

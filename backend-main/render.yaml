@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: perfume-backend
+    env: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn backend.wsgi:application"
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: backend.settings
+      - key: PYTHON_VERSION
+        value: 3.11
+      - key: SECRET_KEY
+        value: your-secret-key
+      - key: DATABASE_URL
+        value: postgresql://mobile_app_pd3d_user:mBZGEWMb8hURMmdzxrn9g6gWsckw98Bi@dpg-d16tluumcj7s73cj4e50-a.singapore-postgres.render.com/mobile_app_pd3d

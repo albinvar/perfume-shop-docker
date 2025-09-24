@@ -1,0 +1,94 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: perfume_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=perfume_shop
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - "5432:5432"
+    networks:
+      - perfume_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./backend-main
+      dockerfile: Dockerfile
+    container_name: perfume_backend
+    volumes:
+      - ./backend-main:/app
+      - static_volume:/app/staticfiles
+      - media_volume:/app/media
+    ports:
+      - "8000:8000"
+    environment:
+      - DOCKER_ENV=true
+      - DJANGO_SETTINGS_MODULE=backend.settings_docker
+      - POSTGRES_DB=perfume_shop
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - DB_HOST=db
+      - DB_PORT=5432
+      - SECRET_KEY=your-secret-key-change-in-production
+      - DEBUG=False
+      - CLOUDINARY_CLOUD_NAME=${CLOUDINARY_CLOUD_NAME:-your_cloud_name}
+      - CLOUDINARY_API_KEY=${CLOUDINARY_API_KEY:-your_api_key}
+      - CLOUDINARY_API_SECRET=${CLOUDINARY_API_SECRET:-your_api_secret}
+      - TWILIO_ACCOUNT_SID=${TWILIO_ACCOUNT_SID:-your_account_sid}
+      - TWILIO_AUTH_TOKEN=${TWILIO_AUTH_TOKEN:-your_auth_token}
+      - TWILIO_PHONE_NUMBER=${TWILIO_PHONE_NUMBER:-your_phone_number}
+    env_file:
+      - ./backend-main/.env
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - perfume_network
+    command: >
+      sh -c "
+      python manage.py migrate &&
+      python manage.py collectstatic --noinput &&
+      gunicorn backend.wsgi:application --bind 0.0.0.0:8000 --workers 3 --reload
+      "
+
+  app:
+    build:
+      context: ./perfume-shop-mobile
+      dockerfile: Dockerfile
+    container_name: perfume_app
+    volumes:
+      - ./perfume-shop-mobile:/app
+      - /app/node_modules
+    ports:
+      - "3000:3000"
+      - "19006:19006"
+      - "19000:19000"
+    environment:
+      - EXPO_DEVTOOLS_LISTEN_ADDRESS=0.0.0.0
+      - REACT_NATIVE_PACKAGER_HOSTNAME=localhost
+      - EXPO_USE_NATIVE_PLATFORMS=false
+    depends_on:
+      - backend
+    networks:
+      - perfume_network
+    stdin_open: true
+    tty: true
+
+volumes:
+  postgres_data:
+  static_volume:
+  media_volume:
+
+networks:
+  perfume_network:
+    driver: bridge
