@@ -10,8 +10,8 @@ RUN apk add --no-cache git python3 make g++
 # Copy package files
 COPY package*.json ./
 
-# Install dependencies
-RUN npm ci --legacy-peer-deps
+# Install dependencies (using install to update lock file)
+RUN npm install --legacy-peer-deps
 
 # Copy project files
 COPY . .
